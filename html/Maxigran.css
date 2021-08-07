@@ -1,0 +1,101 @@
+.contaynertopbar{
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    color: #5C3D19;
+    position: absolute;
+    max-width: 100%;
+    width: 1175px;
+    height: 67px;
+    display:flex;
+    font-family: Montserrat;
+}
+.logo{
+    width:62px;
+    height: 64px;
+    margin-left: 214px;
+    margin-top: 35px;
+}
+.cotaynerlogo{
+    width: 123px;
+    margin-top: 35px;
+    margin-left: 3px;
+    height: 60px;
+    padding: 2px;
+}
+.adress{
+    margin-top: 46px;
+    margin-left: 40px;
+}
+.pin{
+    width: 30px;
+    height: 42px;
+}
+.contextadres{
+    margin-top: 47px;
+    padding: 2px;
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+}
+.textadres{
+    width: 200px;
+    height: 50px;
+}
+.telephonsvg{
+    width: 40px;
+    height: 42px;
+    margin-top: 51px;
+    margin-left: 40px;
+}
+.telephon{
+    width: 200px;
+    height: 49px;
+    margin-top: 49px;
+    margin-left: 8px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.zakazatzvonok{
+    width: 242px;
+    height: 62px;
+    border-radius: 20px;
+    background: rgba(255, 137, 0, 0.67);
+    box-shadow: 5px 7px 16px 1px rgba(159, 90, 39, 0.5);
+    margin-top: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.cotaynertextzakazat{
+    width: 167px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 48px;
+    cursor: pointer;
+}
+.textzakazatzv{
+    cursor: pointer;
+}
+.viber{
+    width: 52px;
+    height: 55px;
+    cursor: pointer;
+}
+.contaynerviber{
+    width: 52px;
+    height: 55px;
+    margin-top: 43px;
+    margin-left: 23px;
+    cursor: pointer;
+}
+.contaynertelegram{
+    width: 56px;
+    height: 55px;
+    margin-top: 43px;
+    margin-left: 10px;
+}
+.telegram{
+    width: 56px;
+    height: 55px;
+
+}
