@@ -9,11 +9,18 @@
     height: 67px;
     display:flex;
     font-family: Montserrat;
+    font-size: 18px;
+    margin-left: 3%;
+}
+.topbar{
+    width: 90%;
+    height: 67px;
+    margin: auto;
+
 }
 .logo{
     width:62px;
     height: 64px;
-    margin-left: 214px;
     margin-top: 35px;
 }
 .cotaynerlogo{
@@ -30,6 +37,7 @@
 .pin{
     width: 30px;
     height: 42px;
+    color: #5C3D19;
 }
 .contextadres{
     margin-top: 47px;
@@ -47,6 +55,13 @@
     height: 42px;
     margin-top: 51px;
     margin-left: 40px;
+    color: #5C3D19;
+}
+.telephonsvgimg{
+    width: 40px;
+    height: 42px;
+    color: #5C3D19;
+
 }
 .telephon{
     width: 200px;
@@ -75,11 +90,14 @@
 }
 .textzakazatzv{
     cursor: pointer;
+    font-size: 18px;
+
 }
 .viber{
     width: 52px;
     height: 55px;
     cursor: pointer;
+    color: #5C3D19;
 }
 .contaynerviber{
     width: 52px;
@@ -93,9 +111,144 @@
     height: 55px;
     margin-top: 43px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .telegram{
     width: 56px;
     height: 55px;
+    cursor: pointer;
+    color: #5C3D19;
+}
+.menu{
+    position: absolute;
+    width: 1174px;
+    height: 90px;
+    margin-left: 120px ;
+    margin-top: 49px;
+    background: rgba(255, 154, 81, 0.95);
+    display: flex;
+    color: #5C3D19;
+    font-family: Montserrat;
 
+}
+.dvsmenu{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 19px;
+    cursor: pointer;
+}
+.dvsmenu ul,
+.dvsmenu ol{
+    list-style: none;
+}
+.dvsmenu > ul{
+    display: flex;
+    margin-top: 25px;
+}
+.dvsmenu >ul li a{
+    display: block;
+    padding: 15px 20px 15px 20px;
+    color: #5C3D19;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+.dvsmenu > ul li{
+    position: relative;
+}
+.dvsmenu li a:hover{
+    color: white;
+}
+.dvsmenu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+.dvsmenu li >ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: rgba(255, 159, 90, 0.79);
+    margin-left: -50px;
+    border-radius: 2px;
+    z-index: 1;
+
+}
+.dvsmenu li:hover >ul{
+    display: block;
+}
+.imgbagr{
+    width: 1174px;
+    height: 774px;
+    margin-left: 120px;
+    margin-top: 139px;
+}
+.textimg{
+    position: absolute;
+    font-size: 48px;
+    font-family: Montserrat;
+    font-weight: 900 ;
+    color: white;
+    margin-top: -700px;
+    margin-left: 780px;
+    text-shadow: 12px 4px 6px rgba(0, 0, 0, 0.5);
+    line-height: 59px;
+}
+.textimgdva{
+    position: absolute;
+    font-size: 48px;
+    font-family: Montserrat;
+    font-weight: 900 ;
+    color: white;
+    margin-top: -645px;
+    margin-left: 900px;
+    text-shadow: 12px 4px 6px rgba(0, 0, 0, 0.5);
+    line-height: 59px;
+}
+.utp {
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    font-family: Montserrat;
+    font-size: 35px;
+    margin-top: -600px;
+    margin-left: 650px;
+    text-shadow: 3px 8px 6px rgba(0, 0, 0, 0.5);
+}
+.utp ul,
+.utp ol{
+    list-style: none;
+}
+.utp li  {
+    padding: 15px;
+    color: white;
+}
+.fa{
+    font-family: 'Material Icons';
+    color: white;
+    font-size: px;
+}
+.pikzakazatpamatnik{
+    width: 320px;
+    height: 64px;
+    background: white;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -200px;
+    cursor: pointer;
+}
+.contentpikzakazatpamatnik{
+    display: block;
+    padding: 20px 55px;
+    color: #5C3D19;
+    font-weight:bold;
+}
+.textnashuslug{
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #67390F;
+    text-align: center;
+    margin-top: 77px;
 }
